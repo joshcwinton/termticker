@@ -2,4 +2,4 @@ main:
 	g++ main.cpp -o main
 
 clean:
-	rm main output.csv
+	rm -f main output.csv
