@@ -1,3 +1,3 @@
 - Add functions for other data queries (especially intraday).
-
 - Add ability to just say today for the date (or last available).
+- Split out functions from main
