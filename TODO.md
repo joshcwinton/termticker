@@ -1,3 +1,6 @@
-- Add functions for other data queries (especially intraday).
-- Add ability to just say today for the date (or last available).
-- Split out functions from main
+- (DONE) Add functions for other data queries (especially intraday).
+- (DONE) Add ability to just say today for the date (or last available).
+- (DONE) Split out functions from main
+- Better date handling (only works for exact dates for monthly and weekly right now)
+- Better error handling
+- Add a way to find closest date
