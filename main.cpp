@@ -24,6 +24,6 @@ int main() {
     } else {
       cout << "Invalid query type try again." << endl;
     }
-  } while (query != ("intraday") && query != ("daily") &&
-           query != ("weekly") && query != ("monthly"));
+  } while (query != ("intraday") && query != ("daily") && query != ("weekly") &&
+           query != ("monthly"));
 }

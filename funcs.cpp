@@ -1,6 +1,6 @@
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
-#include <cstdlib>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -109,7 +109,7 @@ void intraday() {
   string info;
   getIntradayData(symbol);
   info = findDate(timestamp);
-  cout << "--------------------" << endl; 
+  cout << "--------------------" << endl;
   if (info == "") {
     cout << "Date not found." << endl;
   } else {
@@ -150,6 +150,7 @@ void weekly() {
   }
   removeOutput();
 }
+
 void monthly() {
   string symbol = getSymbol();
   string date = getDate();
