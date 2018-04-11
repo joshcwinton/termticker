@@ -16,14 +16,14 @@ string getSymbol() {
 
 string getDate() {
   string date;
-  cout << "Enter a date:" << endl;
+  cout << "Enter a date (YYYY-MM-DD): " << endl;
   cin >> date;
   return (date);
 }
 
 string getTime() {
   string time;
-  cout << "Enter a time:" << endl;
+  cout << "Enter a time (HH:MM:SS): " << endl;
   cin >> time;
   return (time);
 }
