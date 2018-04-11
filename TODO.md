@@ -2,6 +2,9 @@
 - (DONE) Add ability to just say today for the date (or last available).
 - (DONE) Split out functions from main
 - Better date handling (only works for exact dates for monthly and weekly right now)
+-- Also make a way to search just the first part of the date for monthly (might actually avoid part of this issue by splitting up the request for the date so I dont force the user to format the date)
+-- Kind of similar idea for time since this api doesn't handle seconds anyway 
 - Better error handling
 - Add a way to find closest date
 - Maybe write a python version so I can make graphs 
+- 

@@ -109,6 +109,7 @@ void intraday() {
   string info;
   getIntradayData(symbol);
   info = findDate(timestamp);
+  cout << "--------------------" << endl; 
   if (info == "") {
     cout << "Date not found." << endl;
   } else {
@@ -124,6 +125,7 @@ void daily() {
   string info;
   getDailyData(symbol);
   info = findDate(date);
+  cout << "--------------------" << endl;
   if (info == "") {
     cout << "Date not found." << endl;
   } else {
@@ -139,6 +141,7 @@ void weekly() {
   string info;
   getDailyData(symbol);
   info = findDate(date);
+  cout << "--------------------" << endl;
   if (info == "") {
     cout << "Date not found." << endl;
   } else {
@@ -153,6 +156,7 @@ void monthly() {
   string info;
   getDailyData(symbol);
   info = findDate(date);
+  cout << "--------------------" << endl;
   if (info == "") {
     cout << "Date not found." << endl;
   } else {
