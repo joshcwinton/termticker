@@ -4,3 +4,4 @@
 - Better date handling (only works for exact dates for monthly and weekly right now)
 - Better error handling
 - Add a way to find closest date
+- Maybe write a python version so I can make graphs 
